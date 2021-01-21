@@ -1,3 +1,5 @@
+// https://github.com/patwarymehedi/Assignment-3
+
 
 // first problem solution:
 
@@ -70,14 +72,14 @@ console.log(hotelStayCost);
 
 function megaFriend(arr){
     let mega = 0;
-    let Name;
+    let megaFriendName;
     for (i=0; i<arr.length; i++){
         if (arr[i].length > mega){
           mega = arr[i].length;
-          Name = arr[i];
+          megaFriendName = arr[i];
         }
     }
-    return Name;
+    return megaFriendName;
 } 
 
 
